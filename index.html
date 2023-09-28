@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Juego de Adivinanza de Números</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Juego de Adivinanza de Números</h1>
+        <p>Intenta adivinar el número entre 1 y 15:</p>
+        <input type="number" id="guess" min="1" max="15">
+        <button id="checkButton">Comprobar</button>
+        <button id="resetButton">Reiniciar Juego</button>
+        <p id="message"></p>
+        <p id="result"></p>
+        <p id="score"></p>
+        <p id="attempts"></p>
+        <p id="guessHistory"></p>
+        <div class="container">
+            <img id="wrong-image" src="https://tse2.explicit.bing.net/th?id=OIP.KmWbkbraAoZz_IdMGjCMGQAAAA&pid=Api&P=0&h=180" alt="Imagen cuando te equivocas">
+            <img id="correct-image" src="https://tse3.mm.bing.net/th?id=OIP.PN_hLS23JM9KMuuEloNFVAAAAA&pid=Api&P=0&h=180" alt="Imagen cuando aciertas">
+        </div>
+        
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
